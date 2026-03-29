@@ -14,8 +14,10 @@
 
       <div class="flex items-center gap-3">
         <img src="./photoR/logo.svg" alt="logo" class="">
-        
       </div>
+        <button class="lg:hidden p-2 border rounded-md">
+          ☰
+        </button>
       <div class="hidden lg:flex items-center gap-12 text-[14px] text-gray-700">
 
         <div>
@@ -63,9 +65,9 @@
           <a href="#" class="hover:text-black">Page 3</a>
           <a href="#" class="hover:text-black">Page 4</a>
           <a href="#" class="hover:text-black">Page 5</a>
-          <a href="#" class="hover:text-black">О центре</a>
-          <a href="#" class="hover:text-black">Детство</a>
-          <a href="#" class="hover:text-black">Контакты</a>
+          <a class="hidden lg:flex" href="#" class="hover:text-black">О центре</a>
+          <a class="hidden lg:flex" href="#" class="hover:text-black">Детство</a>
+          <a class="hidden lg:flex" href="#" class="hover:text-black">Контакты</a>
         </nav>
 
         <div class="hidden lg:flex items-center gap-6">
@@ -80,9 +82,6 @@
         </div>
 
 
-        <button class="lg:hidden p-2 border rounded-md">
-          ☰
-        </button>
       </div>
     </div>
   </header>
@@ -919,7 +918,7 @@
     </div>
   </section>
 
-  <section class="w-full bg-gradient-to-r from-[#00B9C4] to-[#0071B7] py-16">
+  <section class="w-full bg-gradient-to-r from-[#00B9C4] to-[#0071B7] py-16 mt-20">
     <div class="max-w-[1400px] mx-auto px-4 md:px-8">
 
 
@@ -928,7 +927,7 @@
     Блог от наших специалистов
   </h2>
 
-  <button class="bg-[#00C6BF] text-white px-20 py-3 rounded-md font-semibold text-[14px] mt-3">
+  <button class="hidden md:flex bg-[#00C6BF] text-white px-20 py-3 rounded-md font-semibold text-[14px] mt-3">
     Читать все
   </button>
 </div>
@@ -1033,5 +1032,94 @@
     </div>
   </section>
 
+  <footer class="bg-[#F0F6F9] pt-10 pb-12">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8">
+      <div class="hidden lg:flex items-center justify-between mb-10">
+        <div class="flex items-center gap-3">
+          <img src="./photoR/logo.svg" alt="logo" class="w-[90px] object-contain">
+        </div>
+
+        <nav class="flex items-center gap-20 text-[15px] font-medium text-gray-700">
+          <a href="#">Направления</a>
+          <a href="#">Услуги</a>
+          <a href="#">Врачи</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Акции</a>
+          <a href="#" class="flex items-center gap-2">
+            О центре
+            <span class="text-[12px]">▼</span>
+          </a>
+          <a href="#">Детство</a>
+          <a href="#">Контакты</a>
+        </nav>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 items-start">
+        <div>
+          <div class="lg:hidden flex items-center gap-3 mb-6">
+            <img src="./img/logo.png" alt="logo" class="w-[90px] object-contain">
+          </div>
+
+          <p class="text-gray-600 text-[14px] leading-relaxed">
+            © 2011-2023 Городской Медицинский <br>
+            Центр. Все права защищены.
+          </p>
+
+          <a href="#" class="inline-block mt-16 text-gray-500 underline text-[13px]">
+            Политика конфиденциальности
+          </a>
+        </div>
+        <div>
+          <p class="text-[#00578A] font-extrabold text-[26px]">
+            8 (495) 926-06-03
+          </p>
+          <p class="text-[#00578A] font-extrabold text-[26px] mt-3">
+            8 (495) 588-08-80
+          </p>
+
+          <div class="flex items-center gap-3 mt-10 text-gray-700 text-[14px]">
+            <div class="w-8 h-8 bg-green-500 rounded-md flex items-center justify-center">
+              <img src="./photoR/social.png" alt="">
+            </div>
+            <p>Написать в Whatsapp</p>
+          </div>
+        </div>
+        <div>
+          <p class="text-gray-700 text-[14px]">
+            г. Мытищи, ул.Рождественская, д.7
+          </p>
+
+          <p class="text-gray-500 text-[14px] mt-4">
+            Ежедневно с 9.00 до 21.00
+          </p>
+
+          <div class="mt-20 flex items-center gap-3 text-gray-700 text-[14px]">
+  <div class="w-8 h-8 bg-blue-600 rounded-md flex items-center justify-center">
+    <img src="./photoR/social-2.png" class="w-4 h-4 object-contain" alt="">
+  </div>
+  <p>Vkontakte</p>
+</div>
+        </div>
+
+        <div class="flex flex-col items-start lg:items-end gap-6">
+
+          <button class="bg-[#E3EFF5] px-9 py-4 rounded-md font-semibold text-gray-700">
+            Заказать обратный звонок
+          </button>
+
+          <p class="text-gray-700 text-[14px] mt-10 lg:mt-6">
+            info@gormedcentre.ru
+          </p>
+
+          <div class="flex items-center gap-3 text-gray-700 text-[14px]">
+            <img src="./photoR/icon.png" alt="">
+            <p>Версия для слабовидящих</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
 </body>
 </html>
