@@ -7,104 +7,178 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <header class="flex max-w-[1200px] mx-auto gap-7 items-center justify-center">
+
+  <header class="w-full border-b border-gray-200">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-6">
+
+
+      <div class="flex items-center gap-3">
+        <img src="./photoR/logo.svg" alt="logo" class="">
+        
+      </div>
+      <div class="hidden lg:flex items-center gap-12 text-[14px] text-gray-700">
+
         <div>
-            <img src="./photoR/logo.svg" alt="">
+          <p class="font-semibold text-[#00578A] text-[16px]">8 (495) 926-06-03</p>
+          <div class="flex items-center gap-2 mt-1">
+            <img src="./photoR/social.png" class="w-4 h-4" alt="">
+            <p class="text-gray-500">Whatsapp</p>
+          </div>
         </div>
+
         <div>
-            <p class="text-[#00578A]">8 (495) 926-06-03</p>
-            <div class="flex items-center justify-center">
-                <img src="./photoR/social.png" alt="">
-                <p class="text-[#4F4F4F]">Whatsapp</p>
-            </div>
+          <p class="text-gray-500">info@gormedcentre.ru</p>
+          <p class="text-[#00578A] underline cursor-pointer">Заказать звонок</p>
         </div>
+
         <div>
-            <p class="text-[#4F4F4F]">info@gormedcentre.ru</p>
-            <p class="text-[#4F4F4F]">Заказать звонок</p>
+          <p class="text-gray-500">г. Мытищи,</p>
+          <p class="text-gray-500">ул.Рождественская, д.7</p>
         </div>
+
         <div>
-            <p class="text-[#4F4F4F]">г. Мытищи,</p>
-            <p class="text-[#4F4F4F]">ул.Рождественская, д.7</p>
+          <p class="text-gray-500">Ежедневно</p>
+          <p class="text-gray-500">с 9.00 до 21.00</p>
         </div>
-        <div>
-            <p class="text-[#4F4F4F]">Ежедневно</p>
-            <p class="text-[#4F4F4F]">с 9.00 до 21.00</p>
-        </div>
-        <div class="flex gap-2">
-            <div class="bg-[#00C6BF] w-15 h-15 rounded-[10px] items-center justify-center flex" ><img src="./photoR/zoom-search.png" alt=""></div>
-            <button class="bg-[#E3EFF5] text-[#00578A] px-6 rounded-[10px]">Личный кабинет</button>
-        </div>
-    </header>
-    <section class="max-w-[1200px] m-auto flex justify-between shadow-2xl items-centerc p-2">
-        <div class="flex gap-7 items-center">
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-            <a href="#">Page 4</a>
-            <a href="#">Page 5</a>
-            <a href="#">О центре</a>
-            <a href="#">Детство</a>
-            <a href="#">Контакты</a>
-        </div>
-        <div class="flex gap-2">
-        <div class="flex gap-2 items-center justify-center">
+      </div>
+
+
+      <div class="flex items-center gap-3">
+        <button class="hidden md:flex w-[48px] h-[44px] bg-[#00C6BF] rounded-md items-center justify-center">
+          <img src="./photoR/zoom-search.png" alt="">
+        </button>
+
+        <button class="hidden md:flex px-6 h-[44px] items-center bg-[#EAF2F8] text-[#00578A] rounded-md font-semibold">
+          Личный кабинет
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-white border-t border-gray-200">
+      <div class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
+
+        <nav class="flex gap-7 text-[15px] text-gray-700 font-medium">
+          <a href="#" class="hover:text-black">Page 1</a>
+          <a href="#" class="hover:text-black">Page 2</a>
+          <a href="#" class="hover:text-black">Page 3</a>
+          <a href="#" class="hover:text-black">Page 4</a>
+          <a href="#" class="hover:text-black">Page 5</a>
+          <a href="#" class="hover:text-black">О центре</a>
+          <a href="#" class="hover:text-black">Детство</a>
+          <a href="#" class="hover:text-black">Контакты</a>
+        </nav>
+
+        <div class="hidden lg:flex items-center gap-6">
+          <div class="flex items-center gap-2 text-gray-600 text-[14px]">
             <img src="./photoR/icon.png" alt="">
             <p>Версия для слабовидящих</p>
-        </div>
-        <div>
-            <button class="px-6 py-4 rounded-[15px] bg-[#00578A] text-white">Запись на приём</button>
-        </div>
-        </div>
-    </section>
+          </div>
 
-    <section class="relative max-w-[1200px] m-auto mt-10 bg-[#F0F6F9] overflow-hidden">
+          <button class="px-6 py-3 bg-[#00578A] text-white rounded-md font-semibold">
+            Запись на приём
+          </button>
+        </div>
 
-    <div class="flex gap-3 p-6 px-20">
-        <p class="underline">Главная</p> /  
-        <p class="underline">Направления</p> / 
-        <p>Косметология</p>
-    </div>
 
-    <div class="flex flex-col max-w-[700px] gap-7 text-start items-start p-6 px-20 pb-20">
-        <h1 class="text-[#00578A] text-[28px]">Косметология</h1>
-        <h1 class="text-[50px]">Первичный приём <br> врача-косметолога</h1>
-        <h1 class="text-[60px]">2 500 ₽</h1>
-        <button class="flex justify-start px-14 py-4 rounded-[5px] bg-[#00C6BF] text-white">
-            Записаться
+        <button class="lg:hidden p-2 border rounded-md">
+          ☰
         </button>
+      </div>
     </div>
-    <img 
-        src="./photoR/Layer 0 1.png" 
-        alt=""
-        class="absolute bottom-0 right-0 max-w-[700px]"
-    >
+  </header>
 
-</section>
+  <section class="bg-[#F0F6F9]">
+  <div class="max-w-[1400px] mx-auto px-4 md:px-8 pt-8 pb-0 min-h-[650px]">
 
-    <section class="flex max-w-[1200px] m-auto gap-7 items-center justify-center mt-8 bg-[#F0F6F9]">
-        <div class="flex gap-30 p-10">
-        <div class="flex flex-col gap-4 max-w-[300px]">
-            <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
-            <h1 class="text-[#017CC1] text-[20px]">>10</h1>
-            <p>лет заботы о вашем <br> здоровье</p>
+      <div class="flex items-center gap-3 text-[14px] text-gray-600 mb-10">
+        <a href="#" class="underline">Главная</a>
+        <span>/</span>
+        <a href="#" class="underline">Направления</a>
+        <span>/</span>
+        <span class="text-gray-500">Косметология</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+
+        <div class="max-w-[650px]">
+          <p class="text-[#00578A] text-[22px] font-semibold mb-6">
+            Косметология
+          </p>
+
+          <h1 class="text-[46px] md:text-[60px] font-extrabold text-black leading-[1.05]">
+            Первичный приём <br>
+            врача-косметолога
+          </h1>
+
+          <p class="text-[52px] md:text-[70px] font-extrabold text-black mt-6">
+            2 500 ₽
+          </p>
+
+          <button class="mt-10 px-16 py-4 bg-[#00C6BF] text-white text-[18px] rounded-md font-semibold">
+            Записаться
+          </button>
         </div>
-        <div class="flex flex-col gap-4 max-w-[300px]">
-            <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
-            <h1 class="text-[#017CC1] text-[20px]">150</h1>
-            <p>квалифицированных <br> специалистов</p>
+
+
+       <div class="flex justify-center lg:justify-end items-end h-full">
+        <img src="./photoR/Layer 0 1.png"
+          alt="girl"
+          class="relative lg:top-9 w-[360px] md:w-[520px] lg:w-[650px] object-contain"
+        >
+      </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="mt-30 bg-white">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8 -mt-10 pb-20">
+
+      <div class="bg-[#F0F6F9] rounded-xl px-6 md:px-12 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+
+        <div class="flex flex-col gap-4">
+         <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">>10</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            лет заботы о вашем <br> здоровье
+          </p>
         </div>
-         <div class="flex flex-col gap-4 max-w-[300px]">
-            <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
-            <h1 class="text-[#017CC1] text-[20px]">3 000</h1>
-            <p>медицинских услуг по всем <br> направлениям</p>
+
+
+        <div class="flex flex-col gap-4">
+          <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">150</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            квалифицированных <br> специалистов
+          </p>
         </div>
-         <div class="flex flex-col gap-4 max-w-[300px]">
-            <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
-            <h1 class="text-[#017CC1] text-[20px]">День в день</h1>
-            <p>прием врача любой <br> специальности в день обращения</p>
+
+
+        <div class="flex flex-col gap-4">
+          <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">3 000</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            медицинских услуг по всем <br> направлениям
+          </p>
         </div>
+
+
+        <div class="flex flex-col gap-4">
+          <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">День в день</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            прием врача любой <br> специальности в день обращения
+          </p>
         </div>
-    </section>
+
+      </div>
+
+    </div>
+  </section>
 
   <section class="max-w-[1200px] mx-auto px-4 md:px-8 lg:px-10 py-10">
     
