@@ -7,60 +7,1119 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <header class="flex max-w-[1200px] mx-auto gap-7 items-center justify-center">
+
+  <header class="w-full border-b border-gray-200">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-6">
+
+
+      <div class="flex items-center gap-3">
+        <img src="./photoR/logo.svg" alt="logo" class="">
+      </div>
+        <button class="lg:hidden p-2 border rounded-md">
+          ☰
+        </button>
+      <div class="hidden lg:flex items-center gap-12 text-[14px] text-gray-700">
+
         <div>
-            <img src="./photoR/logo.svg" alt="">
+          <p class="font-semibold text-[#00578A] text-[16px]">8 (495) 926-06-03</p>
+          <div class="flex items-center gap-2 mt-1">
+            <img src="./photoR/social.png" class="w-4 h-4" alt="">
+            <p class="text-gray-500">Whatsapp</p>
+          </div>
         </div>
+
         <div>
-            <p class="text-[#00578A]">8 (495) 926-06-03</p>
-            <div class="flex items-center justify-center">
-                <img src="./photoR/social.png" alt="">
-                <p class="text-[#4F4F4F]">Whatsapp</p>
-            </div>
+          <p class="text-gray-500">info@gormedcentre.ru</p>
+          <p class="text-[#00578A] underline cursor-pointer">Заказать звонок</p>
         </div>
+
         <div>
-            <p class="text-[#4F4F4F]">info@gormedcentre.ru</p>
-            <p class="text-[#4F4F4F]">Заказать звонок</p>
+          <p class="text-gray-500">г. Мытищи,</p>
+          <p class="text-gray-500">ул.Рождественская, д.7</p>
         </div>
+
         <div>
-            <p class="text-[#4F4F4F]">г. Мытищи,</p>
-            <p class="text-[#4F4F4F]">ул.Рождественская, д.7</p>
+          <p class="text-gray-500">Ежедневно</p>
+          <p class="text-gray-500">с 9.00 до 21.00</p>
         </div>
-        <div>
-            <p class="text-[#4F4F4F]">Ежедневно</p>
-            <p class="text-[#4F4F4F]">с 9.00 до 21.00</p>
-        </div>
-        <div class="flex gap-2">
-            <div class="bg-[#00C6BF] w-15 h-15 rounded-[10px] items-center justify-center flex" ><img src="./photoR/zoom-search.png" alt=""></div>
-            <button class="bg-[#E3EFF5] text-[#00578A] px-6 rounded-[10px]">Личный кабинет</button>
-        </div>
-    </header>
-    <section class="max-w-[1200px] m-auto flex justify-between shadow-2xl items-centerc p-2">
-        <div class="flex gap-7 items-center">
-            <a href="#">Page 1</a>
-            <a href="#">Page 2</a>
-            <a href="#">Page 3</a>
-            <a href="#">Page 4</a>
-            <a href="#">Page 5</a>
-            <a href="#">О центре</a>
-            <a href="#">Детство</a>
-            <a href="#">Контакты</a>
-        </div>
-        <div class="flex gap-2">
-        <div class="flex gap-2 items-center justify-center">
+      </div>
+
+
+      <div class="flex items-center gap-3">
+        <button class="hidden md:flex w-[48px] h-[44px] bg-[#00C6BF] rounded-md items-center justify-center">
+          <img src="./photoR/zoom-search.png" alt="">
+        </button>
+
+        <button class="hidden md:flex px-6 h-[44px] items-center bg-[#EAF2F8] text-[#00578A] rounded-md font-semibold">
+          Личный кабинет
+        </button>
+      </div>
+    </div>
+
+    <div class="bg-white border-t border-gray-200">
+      <div class="max-w-[1400px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
+
+        <nav class="flex gap-7 text-[15px] text-gray-700 font-medium">
+          <a href="#" class="hover:text-black">Page 1</a>
+          <a href="#" class="hover:text-black">Page 2</a>
+          <a href="#" class="hover:text-black">Page 3</a>
+          <a href="#" class="hover:text-black">Page 4</a>
+          <a href="#" class="hover:text-black">Page 5</a>
+          <a class="hidden lg:flex" href="#" class="hover:text-black">О центре</a>
+          <a class="hidden lg:flex" href="#" class="hover:text-black">Детство</a>
+          <a class="hidden lg:flex" href="#" class="hover:text-black">Контакты</a>
+        </nav>
+
+        <div class="hidden lg:flex items-center gap-6">
+          <div class="flex items-center gap-2 text-gray-600 text-[14px]">
             <img src="./photoR/icon.png" alt="">
             <p>Версия для слабовидящих</p>
+          </div>
+
+          <button class="px-6 py-3 bg-[#00578A] text-white rounded-md font-semibold">
+            Запись на приём
+          </button>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-[#F0F6F9]">
+  <div class="max-w-[1400px] mx-auto px-4 md:px-8 pt-8 pb-0 min-h-[650px]">
+
+      <div class="flex items-center gap-3 text-[14px] text-gray-600 mb-10">
+        <a href="#" class="underline">Главная</a>
+        <span>/</span>
+        <a href="#" class="underline">Направления</a>
+        <span>/</span>
+        <span class="text-gray-500">Косметология</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+
+        <div class="max-w-[650px]">
+          <p class="text-[#00578A] text-[22px] font-semibold mb-6">
+            Косметология
+          </p>
+
+          <h1 class="text-[46px] md:text-[60px] font-extrabold text-black leading-[1.05]">
+            Первичный приём <br>
+            врача-косметолога
+          </h1>
+
+          <p class="text-[52px] md:text-[70px] font-extrabold text-black mt-6">
+            2 500 ₽
+          </p>
+
+          <button class="mt-10 px-16 py-4 bg-[#00C6BF] text-white text-[18px] rounded-md font-semibold">
+            Записаться
+          </button>
+        </div>
+
+
+       <div class="flex justify-center lg:justify-end items-end h-full">
+        <img src="./photoR/Layer 0 1.png"
+          alt="girl"
+          class="relative lg:top-9 w-[360px] md:w-[520px] lg:w-[650px] object-contain"
+        >
+      </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="mt-30 bg-white">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8 -mt-10 pb-20">
+
+      <div class="bg-[#F0F6F9] rounded-xl px-6 md:px-12 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+
+        <div class="flex flex-col gap-4">
+         <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">>10</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            лет заботы о вашем <br> здоровье
+          </p>
+        </div>
+
+
+        <div class="flex flex-col gap-4">
+          <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">150</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            квалифицированных <br> специалистов
+          </p>
+        </div>
+
+
+        <div class="flex flex-col gap-4">
+          <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">3 000</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            медицинских услуг по всем <br> направлениям
+          </p>
+        </div>
+
+
+        <div class="flex flex-col gap-4">
+          <img class="max-w-[50px]" src="./photoR/cross.png" alt="">
+          <p class="text-[#00578A] text-[22px] font-bold">День в день</p>
+          <p class="text-gray-600 text-[15px] leading-relaxed">
+            прием врача любой <br> специальности в день обращения
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="max-w-[1200px] mx-auto px-4 md:px-8 lg:px-10 py-10">
+    
+
+    <h1 class="text-[42px] font-bold text-black mb-10">
+      Стоимость услуг
+    </h1>
+
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10">
+
+      <div>
+
+        <div class="border-t border-gray-300 py-6 flex items-center justify-between">
+          <p class="text-[20px] font-semibold text-black">
+            Лечение волос (трихология)
+          </p>
+          <p class="text-[26px] text-gray-700">+</p>
+        </div>
+
+        <div class="border-t border-gray-300 py-6 flex items-center justify-between">
+          <p class="text-[20px] font-semibold text-black">
+            Лазерное омоложение
+          </p>
+          <p class="text-[26px] text-gray-700">+</p>
+        </div>
+
+        <div class="border-t border-gray-300 py-6">
+          <div class="flex items-center justify-between">
+            <p class="text-[20px] font-semibold text-black">
+              Контурная пластика
+            </p>
+            <p class="text-[26px] text-gray-700">−</p>
+          </div>
+
+
+          <a href="#" class="block mt-4 text-[15px] text-blue-600 underline">
+            Контурная пластика
+          </a>
+
+          <div class="mt-6">
+
+            <div class="grid grid-cols-[100px_1fr_120px] items-center py-5 border-b border-gray-200">
+              <p class="text-[14px] text-gray-400">55.013</p>
+              <p class="text-[15px] text-gray-700">Наименование услуги</p>
+              <p class="text-[16px] text-blue-700 font-semibold text-right">1000 ₽</p>
+            </div>
+
+            <div class="grid grid-cols-[100px_1fr_120px] items-center py-5 border-b border-gray-200">
+              <p class="text-[14px] text-gray-400">55.013</p>
+              <p class="text-[15px] text-gray-700">Наименование услуги</p>
+              <p class="text-[16px] text-blue-700 font-semibold text-right">1000 ₽</p>
+            </div>
+
+            <div class="grid grid-cols-[100px_1fr_120px] items-center py-5 border-b border-gray-200">
+              <p class="text-[14px] text-gray-400">55.013</p>
+              <p class="text-[15px] text-gray-700">Наименование услуги</p>
+              <p class="text-[16px] text-blue-700 font-semibold text-right">1000 ₽</p>
+            </div>
+
+            <div class="grid grid-cols-[100px_1fr_120px] items-center py-5 border-b border-gray-200">
+              <p class="text-[14px] text-gray-400">55.013</p>
+              <p class="text-[15px] text-gray-700">Наименование услуги</p>
+              <p class="text-[16px] text-blue-700 font-semibold text-right">1000 ₽</p>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="border-t border-gray-300 py-6 flex items-center justify-between">
+          <p class="text-[20px] font-semibold text-black">
+            Услуга по косметологии
+          </p>
+          <p class="text-[26px] text-gray-700">+</p>
+        </div>
+
+        <div class="border-t border-gray-300 py-6 flex items-center justify-between">
+          <p class="text-[20px] font-semibold text-black">
+            Услуга по косметологии
+          </p>
+          <p class="text-[26px] text-gray-700">+</p>
+        </div>
+
+        <div class="border-t border-gray-300 py-6 flex items-center justify-between">
+          <p class="text-[20px] font-semibold text-black">
+            Услуга по косметологии
+          </p>
+          <p class="text-[26px] text-gray-700">+</p>
+        </div>
+
+        <div class="border-t border-gray-300 border-b py-6 flex items-center justify-between">
+          <p class="text-[20px] font-semibold text-black">
+            Услуга по косметологии
+          </p>
+          <p class="text-[26px] text-gray-700">+</p>
+        </div>
+
+      </div>
+
+      <div class="w-full">
+        <div class="bg-[#F3F8FB] rounded-xl shadow-sm">
+            <div class="p-6">
+          <p class="text-[13px] text-orange-400 mb-4">
+            Акция действует до 30 сентября 2023
+          </p>
+
+          <h2 class="text-[22px] font-bold text-black leading-snug mb-6">
+            -20% на биоревитацию <br>
+            Hualuform
+          </h2>
+          </div>
+          <div class="rounded-xl overflow-hidden">
+            <img 
+              src="./photoR/Group 9289.png"
+              alt="banner"
+              class="w-full object-cover"
+            />
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="max-w-[1400px] mx-auto px-4 md:px-8 pt-10">
+    
+    <div class="rounded-2xl overflow-hidden bg-gradient-to-r from-[#00B9C4] to-[#0071B7] px-8 md:px-14 py-12">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+
+
+        <div>
+          <h2 class="text-white text-[34px] md:text-[46px] font-extrabold mb-10">
+            Записаться на приём
+          </h2>
+
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+
+            <div class="relative">
+              <select class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none appearance-none">
+                <option>Выберете направление</option>
+              </select>
+
+              <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+
+
+            <input type="text"
+              placeholder="Ваше имя"
+              class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none" />
+
+
+            <div class="relative">
+              <select class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none appearance-none">
+                <option>Выберете врача</option>
+              </select>
+
+              <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+
+  
+            <input type="text"
+              placeholder="Ваш телефон"
+              class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none" />
+
+          </div>
+        </div>
+
+  
+        <div class="flex flex-col gap-6 lg:pl-10">
+
+          <p class="text-white text-[15px] md:text-[16px] leading-relaxed max-w-[330px]">
+            Оставьте заявку и мы свяжемся <br>
+            с вами в ближайшее время
+          </p>
+
+          <button class="bg-[#00C6BF] hover:bg-[#00b0aa] transition text-white font-semibold py-5 rounded-md w-full max-w-[360px]">
+            Оставить заявку
+          </button>
+
+          <div class="flex items-start gap-3">
+            <input type="checkbox" class="mt-1 w-4 h-4 accent-white">
+            <p class="text-white text-[13px] leading-relaxed">
+              Отправляя заявку, вы соглашаетесь на нашу <br>
+              <a href="#" class="underline">политику конфиденциальности</a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="max-w-[1400px] mx-auto px-4 md:px-8 py-16">
+
+    <div class="flex items-center justify-between gap-6 mb-10">
+      <h2 class="text-[32px] md:text-[46px] font-extrabold text-black">
+        Популярные услуги в косметологии
+      </h2>
+
+      <div class="flex items-center gap-3">
+        <button class="w-[44px] h-[44px] rounded-full bg-[#EAF2F8] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00578A]" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <button class="w-[44px] h-[44px] rounded-full bg-[#00578A] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+
+      <div class="bg-[#F0F6F9] rounded-xl overflow-hidden shadow-sm">
+        <img src="./photoR/image.png" alt="" class="w-full h-[190px] object-cover">
+
+        <div class="p-6 flex flex-col gap-6">
+          <p class="text-[16px] text-gray-800 leading-snug">
+            Магнитно-резонансная <br> томография (МРТ)
+          </p>
+
+          <button class="bg-[#00578A] text-white font-semibold py-3 rounded-md">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+
+      <div class="bg-[#F0F6F9] rounded-xl overflow-hidden shadow-sm">
+        <img src="./photoR/image-2.png" alt="" class="w-full h-[190px] object-cover">
+
+        <div class="p-6 flex flex-col gap-6">
+          <p class="text-[16px] text-gray-800 leading-snug">
+            Гастроскопия
+          </p>
+
+          <button class="bg-[#00578A] text-white font-semibold py-3 rounded-md">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+
+      <div class="bg-[#F0F6F9] rounded-xl overflow-hidden shadow-sm">
+        <img src="./photoR/image-3.png" alt="" class="w-full h-[190px] object-cover">
+
+        <div class="p-6 flex flex-col gap-6">
+          <p class="text-[16px] text-gray-800 leading-snug">
+            Прием гинеколога
+          </p>
+
+          <button class="bg-[#00578A] text-white font-semibold py-3 rounded-md">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+
+      <div class="bg-[#F0F6F9] rounded-xl overflow-hidden shadow-sm">
+        <img src="./photoR/image-4.png" alt="" class="w-full h-[190px] object-cover">
+
+        <div class="p-6 flex flex-col gap-6">
+          <p class="text-[16px] text-gray-800 leading-snug">
+            Лабораторная <br> диагностика
+          </p>
+
+          <button class="bg-[#00578A] text-white font-semibold py-3 rounded-md">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="max-w-[1200px] mx-auto px-4 md:px-8 py-12">
+    
+    <!-- Main block -->
+    <div class="bg-[#F0F6F9] rounded-2xl px-6 md:px-12 py-12">
+
+      <!-- Title -->
+      <h1 class="text-[22px] md:text-[28px] font-bold text-black leading-snug">
+        Все, что вы должны знать о косметологии: секреты красоты и здоровья
+      </h1>
+
+      <!-- Intro -->
+      <p class="text-[14px] md:text-[15px] text-gray-700 leading-relaxed mt-4">
+        Косметология — это наука и искусство, которое изучает и улучшает красоту и здоровье кожи, волос и ногтей.
+        Современная косметология предлагает широкий спектр процедур и продуктов, которые помогают нам выглядеть и чувствовать себя лучше.
+        В этой статье мы погрузимся в мир косметологии и рассмотрим основные аспекты этой науки.
+      </p>
+
+      <!-- Section 1 -->
+      <h2 class="mt-10 text-[15px] md:text-[16px] font-semibold text-[#00578A]">
+        1. Роль косметолога в поддержании красоты и здоровья
+      </h2>
+
+      <p class="mt-3 text-[14px] md:text-[15px] text-gray-700 leading-relaxed">
+        Косметолог — это специалист, который помогает нам достичь желаемого внешнего вида и поддерживать здоровье нашей кожи и волос.
+        Он или она проводит диагностику, консультирует по уходу за кожей и рекомендует процедуры и продукты, которые помогут решить
+        определенные проблемы.
+      </p>
+
+
+      <h2 class="mt-10 text-[15px] md:text-[16px] font-semibold text-[#00578A]">
+        2. Основные процедуры и техники косметологии
+      </h2>
+
+      <p class="mt-3 text-[14px] md:text-[15px] text-gray-700 leading-relaxed">
+        В мире косметологии существует множество процедур и техник, которые помогают улучшить состояние кожи, волос и ногтей.
+        Некоторые из них включают в себя:
+      </p>
+
+      <ol class="mt-5 space-y-4 text-[14px] md:text-[15px] text-gray-700 leading-relaxed list-disc pl-6 marker:text-[#00578A]">
+        <li>
+          Чистка кожи: процедура, при которой косметолог осуществляет механическую или химическую очистку кожи от омертвевших клеток,
+          масла, загрязнений и комедонов.
+        </li>
+
+        <li>
+          Пилинг: метод, который помогает удалить верхний слой кожи, стимулируя процесс обновления клеток.
+          Это помогает улучшить текстуру кожи и избавиться от пигментации и морщин.
+        </li>
+
+        <li>
+          Инъекции: косметолог может проводить инъекции с препаратами, содержащими гиалуроновую кислоту или ботулотоксин,
+          для устранения морщин и увеличения объема губ или щек.
+        </li>
+
+        <li>
+          Лазерные процедуры: лазерное облучение используется для удаления пигментных пятен, рубцов, растяжек и васкулярных изменений на коже.
+        </li>
+
+        <li>
+          Пластическая хирургия: косметолог может также предлагать пластическую хирургию для изменения формы или размера носа,
+          груди или других частей тела.
+        </li>
+      </ol>
+
+
+      <h2 class="mt-10 text-[15px] md:text-[16px] font-semibold text-[#00578A]">
+        3. Важность правильного ухода за кожей
+      </h2>
+
+      <p class="mt-3 text-[14px] md:text-[15px] text-gray-700 leading-relaxed">
+        Косметология не ограничивается только процедурами, проводимыми у специалиста. Правильный уход за кожей в домашних условиях
+        является неотъемлемой частью косметологии. Это включает регулярное очищение, увлажнение и защиту кожи от вредных воздействий
+        окружающей среды.
+      </p>
+
+
+      <h2 class="mt-10 text-[15px] md:text-[16px] font-semibold text-[#00578A]">
+        4. Рекомендации по выбору косметических продуктов
+      </h2>
+
+      <p class="mt-3 text-[14px] md:text-[15px] text-gray-700 leading-relaxed">
+        Выбор правильных косметических продуктов является ключевым аспектом косметологии. Необходимо учитывать тип кожи, его особенности и проблемы,
+        которые требуют решения. Косметолог может помочь вам определиться с выбором наиболее подходящих продуктов, которые удовлетворят вашим потребностям.
+      </p>
+
+
+      <h2 class="mt-10 text-[16px] md:text-[18px] font-bold text-black">
+        Заключение:
+      </h2>
+
+      <p class="mt-3 text-[14px] md:text-[15px] text-gray-700 leading-relaxed">
+        Косметология — это широкая и захватывающая область науки и искусства, которая помогает нам выглядеть и чувствовать себя лучше.
+        От регулярного ухода за кожей до процедур, проводимых специалистом, косметология включает в себя различные методы и техники,
+        которые помогут улучшить нашу внешность и поддержать здоровье. Не забывайте обращаться к профессионалу для получения наилучших результатов
+        и сохранения красоты на долгое время.
+      </p>
+
+      <div class="mt-12 border-l-2 border-gray-400 pl-6 text-gray-700 italic text-[14px] md:text-[15px] leading-relaxed">
+       <i> Пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой.
+        Пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой
+        пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой пример текста с цитатой.</i>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="max-w-[1400px] mx-auto px-4 md:px-8 py-12">
+
+    <div class="flex items-center justify-between mb-10">
+      <h2 class="text-[42px] md:text-[54px] font-extrabold text-black">
+        Врачи
+      </h2>
+
+      <div class="flex items-center gap-3">
+        <button class="w-[44px] h-[44px] rounded-full bg-[#EAF2F8] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00578A]" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <button class="w-[44px] h-[44px] rounded-full bg-[#00578A] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+
+      <div class="bg-white rounded-xl overflow-hidden">
+        <img src="./photoR/photo.png" class="w-full h-[280px] object-cover rounded-xl" alt="">
+        <div class="mt-4">
+          <p class="text-[#0071B7] font-semibold text-[18px]">Крятов Андрей</p>
+          <p class="text-gray-600 text-[14px] mt-1">Главный врач, уролог, андролог</p>
+          <button class="mt-4 w-full bg-[#00578A] text-white py-3 rounded-md font-semibold">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+     
+      <div class="bg-white rounded-xl overflow-hidden">
+        <img src="./photoR/photo-2.png" class="w-full h-[280px] object-cover rounded-xl" alt="">
+        <div class="mt-4">
+          <p class="text-[#0071B7] font-semibold text-[18px]">Савина Наталья</p>
+          <p class="text-gray-600 text-[14px] mt-1">Врач-невролог</p>
+          <button class="mt-4 w-full bg-[#00578A] text-white py-3 rounded-md font-semibold">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+      
+      <div class="bg-white rounded-xl overflow-hidden">
+        <img src="./photoR/photo-3.png" class="w-full h-[280px] object-cover rounded-xl" alt="">
+        <div class="mt-4">
+          <p class="text-[#0071B7] font-semibold text-[18px]">Зотова Гюзаль</p>
+          <p class="text-gray-600 text-[14px] mt-1">Врач-терапевт</p>
+          <button class="mt-4 w-full bg-[#00578A] text-white py-3 rounded-md font-semibold">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+
+      <div class="bg-white rounded-xl overflow-hidden">
+        <img src="./photoR/photo-4.png" class="w-full h-[280px] object-cover rounded-xl" alt="">
+        <div class="mt-4">
+          <p class="text-[#0071B7] font-semibold text-[18px]">Николаева Оксана</p>
+          <p class="text-gray-600 text-[14px] mt-1">Врач-терапевт</p>
+          <button class="mt-4 w-full bg-[#00578A] text-white py-3 rounded-md font-semibold">
+            Записаться
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="flex items-center justify-between mt-20 mb-12">
+      <h2 class="text-[42px] md:text-[54px] font-extrabold text-black">
+        Отзывы пациентов
+      </h2>
+
+      <div class="flex items-center gap-3">
+        <button class="w-[44px] h-[44px] rounded-full bg-[#EAF2F8] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00578A]" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <button class="w-[44px] h-[44px] rounded-full bg-[#00578A] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+
+      <div class="mt-6">
+        <p class="font-semibold text-black text-[14px]">Балушина Татьяна</p>
+        <p class="text-gray-500 text-[13px] mt-1">18 апреля 2022</p>
+        
+
+        <div class="flex gap-1 pt-9">
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+        </div>
+
+        <p class="text-gray-700 text-[15px] leading-relaxed mt-6 max-w-[520px]">
+          Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом и проведением ультразвуковой диагностики.
+          Спасибо Наталье Ивановне за внимательное отношение к пациентам! При возникновении проблем теперь только к ней!
+        </p>
+
+        <button class="mt-10 px-12 w-2xs border-[#017CC1] border text-[#017CC1] py-3 rounded-md font-semibold">
+          Подробнее
+        </button>
+
+        <p class="mt-10 text-gray-700 text-[15px]">
+          Врач: <span class="text-[#017CC1] underline cursor-pointer">Савина Наталья Владимировна</span>
+        </p>
+      </div>
+
+
+      <div class="mt-6">
+        <p class="font-semibold text-black text-[14px]">Трофимов Иван</p>
+        <p class="text-gray-500 text-[13px] mt-1">24 ноября 2021</p>
+
+   
+        <div class="flex gap-1 mt-9">
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+          <span class="text-orange-500 text-[20px]"><img src="./photoR/svg.png" alt=""></span>
+        </div>
+
+        <p class="text-gray-700 text-[15px] leading-relaxed mt-6 max-w-[520px]">
+          Огромное спасибо врачу за тщательное обследование. Выявили нехватку витамина Д, проблем с щитовидной, к счастью, не оказалось.
+          Доктор приятная в общении и настоящий профессионал!
+        </p>
+
+        <button class="mt-10 px-12  border-[#017CC1] border text-[#017CC1] py-3 rounded-md font-semibold">
+          Подробнее
+        </button>
+
+        <p class="mt-10 text-gray-700 text-[15px]">
+          Врач: <span class="text-[#017CC1] underline cursor-pointer">Крятов Андрей Михайлович</span>
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="max-w-[1400px] mx-auto px-4 md:px-8 py-12">
+
+    <div class="flex items-center justify-between mb-10">
+      <h2 class="text-[42px] md:text-[54px] font-extrabold text-black">
+        Лицензии и сертификаты
+      </h2>
+
+      <div class="flex items-center gap-3">
+        <button class="w-[44px] h-[44px] rounded-full bg-[#EAF2F8] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#00578A]" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <button class="w-[44px] h-[44px] rounded-full bg-[#00578A] flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+   
+      <div>
+        <div class="border border-[#B7D8EE] rounded-md overflow-hidden bg-white">
+          <img src="./photoR/01.png" alt="" class="w-full h-[360px] object-cover">
+        </div>
+        <p class="text-gray-600 text-[14px] mt-4">
+          Сертификат ГОСТ Р ISO 9001-2015
+        </p>
+      </div>
+
+
+      <div>
+        <div class="relative border border-[#B7D8EE] rounded-md overflow-hidden bg-white">
+          <img src="./photoR/02-hover copy.png" alt="" class="w-full h-[360px] object-cover">
+        </div>
+
+        <a href="#" class="block text-[#017CC1] text-[14px] mt-4 underline">
+          Лицензия Л041-01162-5000369739 <br>(выписка из реестра)
+        </a>
+      </div>
+
+
+      <div>
+        <div class="border border-[#B7D8EE] rounded-md overflow-hidden bg-white">
+          <img src="./photoR/03.png" alt="" class="w-full h-[360px] object-cover">
+        </div>
+
+        <p class="text-gray-600 text-[14px] mt-4">
+          Лицензия Л017-01162-50/00561579 <br>(выписка из реестра)
+        </p>
+      </div>
+
+
+      <div>
+        <div class="border border-[#B7D8EE] rounded-md overflow-hidden bg-white">
+          <img src="./photoR/04.png" alt="" class="w-full h-[360px] object-cover">
+        </div>
+
+        <p class="text-gray-600 text-[14px] mt-4">
+          Лицензия Л041-01162-50/00338967 <br>(выписка из реестра)
+        </p>
+      </div>
+
+    </div>
+
+
+
+    <div class="mt-50">
+      <h2 class="text-[42px] md:text-[54px] font-extrabold text-black mb-10">
+        Как нас найти
+      </h2>
+
+      <div class="rounded-xl overflow-hidden">
+       <img src="./photoR/map.png" alt="">
+      </div>
+    </div>
+
+  </section>
+
+   <section class="max-w-[1400px] mx-auto px-4 md:px-8 pt-10">
+    
+    <div class="rounded-2xl overflow-hidden bg-gradient-to-r from-[#00B9C4] to-[#0071B7] px-8 md:px-14 py-12">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+
+
+        <div>
+          <h2 class="text-white text-[34px] md:text-[46px] font-extrabold mb-10">
+            Записаться на приём
+          </h2>
+
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+
+            <div class="relative">
+              <select class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none appearance-none">
+                <option>Выберете направление</option>
+              </select>
+
+              <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+
+
+            <input type="text"
+              placeholder="Ваше имя"
+              class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none" />
+
+
+            <div class="relative">
+              <select class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none appearance-none">
+                <option>Выберете врача</option>
+              </select>
+
+              <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" stroke-width="2"
+                  viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+
+  
+            <input type="text"
+              placeholder="Ваш телефон"
+              class="w-full bg-white px-6 py-5 rounded-md text-gray-600 text-[15px] outline-none" />
+
+          </div>
+        </div>
+
+  
+        <div class="flex flex-col gap-6 lg:pl-10">
+
+          <p class="text-white text-[15px] md:text-[16px] leading-relaxed max-w-[330px]">
+            Оставьте заявку и мы свяжемся <br>
+            с вами в ближайшее время
+          </p>
+
+          <button class="bg-[#00C6BF] hover:bg-[#00b0aa] transition text-white font-semibold py-5 rounded-md w-full max-w-[360px]">
+            Оставить заявку
+          </button>
+
+          <div class="flex items-start gap-3">
+            <input type="checkbox" class="mt-1 w-4 h-4 accent-white">
+            <p class="text-white text-[13px] leading-relaxed">
+              Отправляя заявку, вы соглашаетесь на нашу <br>
+              <a href="#" class="underline">политику конфиденциальности</a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="w-full bg-gradient-to-r from-[#00B9C4] to-[#0071B7] py-16 mt-20">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8">
+
+
+      <div class="flex items-start justify-between gap-8 mb-14">
+  <h2 class="text-white text-[42px] md:text-[58px] font-extrabold leading-tight">
+    Блог от наших специалистов
+  </h2>
+
+  <button class="hidden md:flex bg-[#00C6BF] text-white px-20 py-3 rounded-md font-semibold text-[14px] mt-3">
+    Читать все
+  </button>
+</div>
+
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+
+        <div class="text-white">
+          <div class="rounded-xl overflow-hidden shadow-md">
+            <img src="./photoR/Image copy.png" class="w-full h-[200px] object-cover" alt="">
+          </div>
+
+          <h3 class="mt-7 font-bold text-[20px] leading-snug">
+            Кто находится в группе <br> риска по глаукоме?
+          </h3>
+
+          <p class="mt-4 text-[14px] text-white/80 leading-relaxed">
+            Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...
+          </p>
+
+          <div class="flex items-center gap-3 mt-8">
+            <img src="./photoR/Image copy 2.png" class="w-11 h-11 rounded-full object-cover border-2 border-white/30" alt="">
+            <div class="text-[13px]">
+              <p class="font-semibold">Савина Наталья</p>
+              <p class="text-white/70">30 авг. 2023 • 5 минут на чтение</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-white">
+          <div class="rounded-xl overflow-hidden shadow-md">
+            <img src="./photoR/Image copy.png" class="w-full h-[200px] object-cover" alt="">
+          </div>
+
+          <h3 class="mt-7 font-bold text-[20px] leading-snug">
+            Кто находится в группе <br> риска по глаукоме?
+          </h3>
+
+          <p class="mt-4 text-[14px] text-white/80 leading-relaxed">
+            Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...
+          </p>
+
+          <div class="flex items-center gap-3 mt-8">
+            <img src="./photoR/Image copy 2.png" class="w-11 h-11 rounded-full object-cover border-2 border-white/30" alt="">
+            <div class="text-[13px]">
+              <p class="font-semibold">Савина Наталья</p>
+              <p class="text-white/70">30 авг. 2023 • 5 минут на чтение</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="text-white">
+          <div class="rounded-xl overflow-hidden shadow-md">
+            <img src="./photoR/Image copy.png" class="w-full h-[200px] object-cover" alt="">
+          </div>
+
+          <h3 class="mt-7 font-bold text-[20px] leading-snug">
+            Кто находится в группе <br> риска по глаукоме?
+          </h3>
+
+          <p class="mt-4 text-[14px] text-white/80 leading-relaxed">
+            Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...
+          </p>
+
+          <div class="flex items-center gap-3 mt-8">
+            <img src="./photoR/Image copy 2.png" class="w-11 h-11 rounded-full object-cover border-2 border-white/30" alt="">
+            <div class="text-[13px]">
+              <p class="font-semibold">Савина Наталья</p>
+              <p class="text-white/70">30 авг. 2023 • 5 минут на чтение</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-white">
+          <div class="rounded-xl overflow-hidden shadow-md">
+            <img src="./photoR/Image copy.png" class="w-full h-[200px] object-cover" alt="">
+          </div>
+
+          <h3 class="mt-7 font-bold text-[20px] leading-snug">
+            Кто находится в группе <br> риска по глаукоме?
+          </h3>
+
+          <p class="mt-4 text-[14px] text-white/80 leading-relaxed">
+            Глаукома — прогрессирующее заболевание, приводящее к безвозвратной слепоте, в основе кото...
+          </p>
+
+          <div class="flex items-center gap-3 mt-8">
+            <img src="./photoR/Image copy 2.png" class="w-11 h-11 rounded-full object-cover border-2 border-white/30" alt="">
+            <div class="text-[13px]">
+              <p class="font-semibold">Савина Наталья</p>
+              <p class="text-white/70">30 авг. 2023 • 5 минут на чтение</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="lg:hidden mt-12 bg-[#00C6BF] text-white px-14 py-4 rounded-md font-semibold text-[15px] w-full">
+        Читать все
+      </button>
+
+    </div>
+  </section>
+
+  <footer class="bg-[#F0F6F9] pt-10 pb-12">
+    <div class="max-w-[1400px] mx-auto px-4 md:px-8">
+      <div class="hidden lg:flex items-center justify-between mb-10">
+        <div class="flex items-center gap-3">
+          <img src="./photoR/logo.svg" alt="logo" class="w-[90px] object-contain">
+        </div>
+
+        <nav class="flex items-center gap-20 text-[15px] font-medium text-gray-700">
+          <a href="#">Направления</a>
+          <a href="#">Услуги</a>
+          <a href="#">Врачи</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Акции</a>
+          <a href="#" class="flex items-center gap-2">
+            О центре
+            <span class="text-[12px]">▼</span>
+          </a>
+          <a href="#">Детство</a>
+          <a href="#">Контакты</a>
+        </nav>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 items-start">
+        <div>
+          <div class="lg:hidden flex items-center gap-3 mb-6">
+            <img src="./img/logo.png" alt="logo" class="w-[90px] object-contain">
+          </div>
+
+          <p class="text-gray-600 text-[14px] leading-relaxed">
+            © 2011-2023 Городской Медицинский <br>
+            Центр. Все права защищены.
+          </p>
+
+          <a href="#" class="inline-block mt-16 text-gray-500 underline text-[13px]">
+            Политика конфиденциальности
+          </a>
         </div>
         <div>
-            <button class="px-6 py-4 rounded-[15px] bg-[#00578A] text-white">Запись на приём</button>
-        </div>
-        </div>
-    </section>
+          <p class="text-[#00578A] font-extrabold text-[26px]">
+            8 (495) 926-06-03
+          </p>
+          <p class="text-[#00578A] font-extrabold text-[26px] mt-3">
+            8 (495) 588-08-80
+          </p>
 
-    <section class="max-w-[1200px] m-auto mt-10">
-        <div class="flex gap-3">
-            <p class="underline">Главная</p> /  <p class="underline">Направления </p> / <p>  Косметология</p>
+          <div class="flex items-center gap-3 mt-10 text-gray-700 text-[14px]">
+            <div class="w-8 h-8 bg-green-500 rounded-md flex items-center justify-center">
+              <img src="./photoR/social.png" alt="">
+            </div>
+            <p>Написать в Whatsapp</p>
+          </div>
         </div>
-    </section>
+        <div>
+          <p class="text-gray-700 text-[14px]">
+            г. Мытищи, ул.Рождественская, д.7
+          </p>
+
+          <p class="text-gray-500 text-[14px] mt-4">
+            Ежедневно с 9.00 до 21.00
+          </p>
+
+          <div class="mt-20 flex items-center gap-3 text-gray-700 text-[14px]">
+  <div class="w-8 h-8 bg-blue-600 rounded-md flex items-center justify-center">
+    <img src="./photoR/social-2.png" class="w-4 h-4 object-contain" alt="">
+  </div>
+  <p>Vkontakte</p>
+</div>
+        </div>
+
+        <div class="flex flex-col items-start lg:items-end gap-6">
+
+          <button class="bg-[#E3EFF5] px-9 py-4 rounded-md font-semibold text-gray-700">
+            Заказать обратный звонок
+          </button>
+
+          <p class="text-gray-700 text-[14px] mt-10 lg:mt-6">
+            info@gormedcentre.ru
+          </p>
+
+          <div class="flex items-center gap-3 text-gray-700 text-[14px]">
+            <img src="./photoR/icon.png" alt="">
+            <p>Версия для слабовидящих</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
 </body>
 </html>
